@@ -3,9 +3,4 @@ body {
   background-color: ivory;
 }
 /* adds a quirky (te he) border to big epic cool title thing*/
-a {
-  border-top-style: dotted;
-  border-right-style: solid;
-  border-bottom-style: dotted;
-  border-left-style: solid;
-}
+p.titlething {border-style: none none none solid;}
