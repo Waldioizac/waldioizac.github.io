@@ -1,8 +1,11 @@
+/* Changes bg color to ivory*/
 body {
   background-color: ivory;
 }
-
-h1 {
-  color: navy;
-  margin-left: 20px;
+/* adds a quirky (te he) border to big epic cool title thing*/
+a {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
 }
