@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Izac's Pixel Art</title>
+  <script defer src="index.js"></script>   
 <style>
 p.titlething { 
     border-left: 6px solid LightCyan;
@@ -12,7 +13,7 @@ p.titlething {
       background-color: LightBlue;
   }
 </style>
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
   </head>
   <body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1083.0">
     <p class="titlething">Pixel Art <p>By <a href="https://github.com/Waldioizac">@Waldioizac</a>
@@ -26,19 +27,8 @@ p.titlething {
     </h2>
     <hr />
 -->
-  <script>
-    function counter_fn() {
-      var counter = document.getElementById("cntr");
-      var count = 0;
-      count = parseInt(counter.innerHTML);
-      count = count + 1;
-      counter.innerHTML = count;
-    }
-    window.onload = counter_fn;
-  </script>
-  <div>
-    <p>The number of visitors is : <span id="cntr">0</span></p>
-  </div>
+  <div>Website visit count:</div>
+    <div class="website-counter"></div>
     <h3>Super Duck
     </h3>
     <hr />
