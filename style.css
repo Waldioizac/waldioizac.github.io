@@ -3,19 +3,6 @@ body {
   background-color: ivory;
 }
 
-/* Center child elements */
-body,
-.website-counter {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  flex-direction: column;
-}
-
-body {
-  height: 100vh;
-}
-
 /* Styles for website counter container */
 .website-counter {
   background-color: #ff4957;
