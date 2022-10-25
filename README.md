@@ -5,6 +5,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/waldioizac/waldioizac.github.io?color=blue">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/waldioizac/waldioizac.github.io?style=social">
   <a href="https://github.com/waldioizac/"><img alt="WaldioIzac Link" src="https://img.shields.io/badge/Artist-Waldioizac-orange">
+<a href="https://github.com/retroDOTexe/"><img alt="retroDOTexe Link" src="https://img.shields.io/badge/Programmer-retroDOTexe-red">
 </p>
 
 #### Pixel art duhhhhh
