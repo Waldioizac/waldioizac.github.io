@@ -4,6 +4,38 @@
 	<title>Izac's Website</title>
 </head>
 <body>
+	<div id="graphcomment"></div>
+<script type="text/javascript">
+
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  var __semio__params = {
+    graphcommentId: "waldioizacwebsite", // make sure the id is yours
+
+    behaviour: {
+      // HIGHLY RECOMMENDED
+      //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+    },
+
+    // configure your variables here
+
+  }
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+  
+
+</script>
 	<a href='https://waldioizac.github.io/art' target='_self'>
 	<input type='button' style='padding-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;margin-left:11px;margin-top:10px;margin-right:10px;margin-bottom:10px;background-color:#1b90bb;color:#FFFFFF;border-left-width:0px;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-color:#d5d5d5;border-radius:10px;cursor:pointer' value='My Art!' onMouseOver=this.style.backgroundColor='#FFFFFF';this.style.color='#000000';this.style.borderColor='#d5d5d5' onMouseOut=this.style.backgroundColor='#1b90bb';this.style.color='#FFFFFF';this.style.borderColor='#d5d5d5' />
 </a>
